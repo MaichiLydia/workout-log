@@ -1,0 +1,10 @@
+.table{
+    &__btn{
+        background-color:transparent;
+        border:none;
+        color:map-get($colors, 'delete');
+       &:hover{
+           color: darken(map-get($colors, 'delete'), 20);
+       }
+    }
+}
