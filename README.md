@@ -9,7 +9,6 @@ Localmente:
 3. Execute: npm start 
 4. No navegador acesse localhost:3000, caso a porta 3000 do seu ambiente local esteja ocupada, acesse o endereço sugerido que aparecerá no seu console.
 5. Comece a adicionar suas atividades ! <br/>
-![Run like Forest, Run !](https://media.giphy.com/media/l2Sqc3POpzkj5r8SQ/giphy.gif)
 
 ## Dependencias do projeto
 Nesse projeto foram adicionadas as seguintes dependencias(além das originais do create-react-app):
