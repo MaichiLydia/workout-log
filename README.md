@@ -2,16 +2,12 @@
 # Workout Log
 Projeto para inserção de atividades físicas em React JS, a partir do [create-react-app](https://github.com/facebook/create-react-app)
 
-## Como usar essa aplicação
-
+## Como acessar essa aplicação
 Localmente:
 1. Clone o projeto na sua máquina 
 2. Execute: npm install | [necessário node](https://nodejs.org/en/)
 3. Execute: npm start 
 4. No navegador acesse localhost:3000, caso a porta 3000 do seu ambiente local esteja ocupada, acesse o endereço sugerido que aparecerá no seu console.
-
-Acesso a página:
-    Acesse [a página aqui](https://MaichiLydia.github.io/workout-log)  
 
 ## Dependencias do projeto
 Nesse projeto foram adicionadas as seguintes dependencias(além das originais do create-react-app):
