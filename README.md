@@ -22,5 +22,5 @@ Nesse projeto foram adicionadas as seguintes dependencias(além das originais do
 - [npm-run-all](https://github.com/mysticatea/npm-run-all)
    Para executar o start e o watch do sass
 - [uuid](https://github.com/kelektiv/node-uuid)
-   Para gerar ids para cada sessão de exercício inserida.
+   Para gerar ids para cada inserção de exercício realizada.
 
