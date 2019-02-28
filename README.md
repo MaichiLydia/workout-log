@@ -1,6 +1,6 @@
 
 # Workout Log
-Projeto para inserção de atividades físicas em React JS, a partir do [create-react-app](https://github.com/facebook/create-react-app)
+Projeto para inserção de atividades físicas em React, a partir do [create-react-app](https://github.com/facebook/create-react-app)
 
 ## Como acessar essa aplicação
 Localmente:
@@ -8,6 +8,8 @@ Localmente:
 2. Execute: npm install | [necessário node](https://nodejs.org/en/)
 3. Execute: npm start 
 4. No navegador acesse localhost:3000, caso a porta 3000 do seu ambiente local esteja ocupada, acesse o endereço sugerido que aparecerá no seu console.
+5. Comece a adicionar suas atividades ! <br/>
+![Run like Forest, Run !](https://media.giphy.com/media/l2Sqc3POpzkj5r8SQ/giphy.gif)
 
 ## Dependencias do projeto
 Nesse projeto foram adicionadas as seguintes dependencias(além das originais do create-react-app):
@@ -21,3 +23,4 @@ Nesse projeto foram adicionadas as seguintes dependencias(além das originais do
    Para executar o start e o watch do sass
 - [uuid](https://github.com/kelektiv/node-uuid)
    Para gerar ids para cada sessão de exercício inserida.
+
