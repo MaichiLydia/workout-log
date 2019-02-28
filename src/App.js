@@ -3,10 +3,6 @@ import './App.css'
 import sampleActivities from './sample-activities'
 import WorkoutForm from './components/WorkoutForm'
 import WorkoutsInfo from './components/WorkoutsInfo'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faIgloo } from '@fortawesome/free-solid-svg-icons'
-
-library.add(faIgloo)
 
 
 

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check if input receives the right values 1`] = `
+<Input
+  id="name"
+  name="name"
+  onChange={[Function]}
+  placeholder="Digite o texto aqui"
+  required={true}
+  type="text"
+>
+  <input
+    className="form__input"
+    id="name"
+    name="name"
+    onChange={[Function]}
+    placeholder="Digite o texto aqui"
+    type="text"
+  />
+</Input>
+`;

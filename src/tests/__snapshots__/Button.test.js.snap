@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check render a disabled button 1`] = `
+<Button
+  disabled={true}
+>
+  <button
+    className="form__btn form__btn--disabled"
+    disabled={true}
+  >
+    Click me !
+  </button>
+</Button>
+`;
+
+exports[`should render an active button 1`] = `
+<Button
+  disabled={false}
+>
+  <button
+    className="form__btn"
+  >
+    Click me !
+  </button>
+</Button>
+`;
