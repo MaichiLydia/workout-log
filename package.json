@@ -2,6 +2,7 @@
   "name": "workout-log",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://MaichiLydia.github.io/workout-log",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.15",
     "@fortawesome/free-solid-svg-icons": "^5.7.2",
@@ -10,12 +11,13 @@
     "node-sass": "^4.11.0",
     "npm-run-all": "^4.1.5",
     "react": "^16.8.3",
-    "react-dates": "^19.0.4",
     "react-dom": "^16.8.3",
     "react-scripts": "2.1.5",
     "uuid": "^3.3.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build-css": "node-sass --include-path ./src --include-path ./node_modules src/ -o src/",
     "watch-css": "npm run build-css && node-sass --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
     "start": "npm-run-all -p watch-css start-js",
@@ -32,5 +34,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }

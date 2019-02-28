@@ -1,6 +1,7 @@
 import React from 'react';
 import FieldContainer from './FieldContainer';
 import Button from './Button';
+import PropTypes from 'prop-types';
 
 
 function Form(props){
@@ -18,5 +19,14 @@ function Form(props){
 Form.FieldContainer = FieldContainer;
 Form.Button = Button;
 
+FieldContainer.propTypes = {
+    title: PropTypes.string,
+    text: PropTypes.string,
+    onSubmit: PropTypes.func,
+    children: PropTypes.oneOfType([
+        PropTypes.arrayOf(PropTypes.node),
+        PropTypes.node
+    ]).isRequired 
+}
 
-export default Form;
+export default Form

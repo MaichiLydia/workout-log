@@ -3,23 +3,31 @@
     flex-direction: row;
     justify-content:space-around;
     &__field-container{
+        align-items: flex-start;
         &--error{
+            align-self: flex-start;
             color: map-get($colors, 'error');
         }
     }
+    &__field-label{
+        align-self: flex-start;
+        font-weight:bold;
+    }
     &__input, &__select{
+        align-self: flex-start;
+        flex-shrink: 0;
         font-size: 1rem;
         box-sizing: border-box;
         display: block;
         width: 80%;
         padding: 0.5rem;
-        margin: 2rem 1rem;
+        margin: 0.2rem 1rem 0.5rem;
         border: 1px solid black;
         border-radius: 5px;
         &:focus{
             outline: none;
-            border-color: #9351b4;
-            box-shadow: 0 0 10px #9351b4;
+            border-color: map-get($colors, 'main');
+            box-shadow: 0 0 10px map-get($colors, 'main');
         }
     }
     &__btn{
@@ -27,24 +35,25 @@
         font-size: 1.0rem;
         font-weight: bold;
         padding: 0.8rem;
-        margin: 1.7rem 1rem;
-        background: #9351b4;
-        border: 1px solid #9351b4;
+        margin: 0.7rem 1rem;
+        background: map-get($colors, 'main');
+        border: 1px solid map-get($colors, 'main');
         border-radius: 5px;
+        height: 50px;
+        align-self: flex-start;
         &--disabled{
-            color: gray;
-            background: lightgrey;
-            border-color: lightgrey;
+            color: map-get($font-colors, 'disabled');
+            background: map-get($colors, 'disabled');
+            border-color: map-get($colors, 'disabled');
             cursor: not-allowed;
         }
         @media only screen and (max-width: 480px) {
-            flex-direction: column;
-    
+            width:50%;
+            align-self: center;
         }
     }
     @media only screen and (max-width: 480px) {
         justify-content:center;
         flex-direction: column;
-
     }
 }

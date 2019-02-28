@@ -43,11 +43,23 @@ class App extends Component {
 
   }
 
+   
+  sortBy = (key) => {
+    let arrayCopy = [...this.state.workouts];
+    arrayCopy.sort(( a, b) => 
+     {  
+      if (a[key] < b[key]) return -1; 
+      if (a[key] > b[key]) return 1;
+      return 0;
+    })
+    this.setState({workouts: arrayCopy});
+  }
+
   render() {
     return (
-      <div className="App ">
+      <div className="App">
           <WorkoutForm activities={this.state.activities} addWorkout={this.addWorkout} />
-          <WorkoutsInfo activities={this.state.activities} workouts={this.state.workouts} removeWorkout={this.removeWorkout}/>
+          <WorkoutsInfo activities={this.state.activities} workouts={this.state.workouts} removeWorkout={this.removeWorkout} sortBy={this.sortBy}/>
       </div>
     );
   }
