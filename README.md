@@ -10,6 +10,9 @@ Localmente:
 4. No navegador acesse localhost:3000, caso a porta 3000 do seu ambiente local esteja ocupada, acesse o endereço sugerido que aparecerá no seu console.
 5. Comece a adicionar suas atividades ! <br/>
 
+## Rodando os testes: 
+Execute npm test
+
 ## Dependencias do projeto
 Nesse projeto foram adicionadas as seguintes dependencias(além das originais do create-react-app):
 - [Font Awesome](https://github.com/FortAwesome/react-fontawesome) 
