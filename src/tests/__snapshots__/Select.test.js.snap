@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check if select receives the right values 1`] = `
+<Select
+  id="cars"
+  name="name"
+  onChange={[Function]}
+  options={
+    Array [
+      Object {
+        "id": 1,
+        "name": "Gol",
+      },
+      Object {
+        "id": 2,
+        "name": "FordFiesta",
+      },
+      Object {
+        "id": 3,
+        "name": "Uno",
+      },
+    ]
+  }
+  required={true}
+>
+  <select
+    className="form__select"
+    id="cars"
+    name="name"
+    onChange={[Function]}
+  >
+    <option
+      className="form__option"
+      key="1"
+      value={1}
+    >
+      Gol
+    </option>
+    <option
+      className="form__option"
+      key="2"
+      value={2}
+    >
+      FordFiesta
+    </option>
+    <option
+      className="form__option"
+      key="3"
+      value={3}
+    >
+      Uno
+    </option>
+  </select>
+</Select>
+`;

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check if FieldContainer receives the right values 1`] = `
+<FieldContainer
+  htmlFor="name"
+>
+  <div
+    className="form__field-container"
+  >
+    <label
+      className="form__field-label"
+      htmlFor="name"
+    />
+    <Input
+      id="name"
+      name="name"
+      onChange={[Function]}
+      required={true}
+      type="text"
+    >
+      <input
+        className="form__input"
+        id="name"
+        name="name"
+        onChange={[Function]}
+        type="text"
+      />
+    </Input>
+  </div>
+</FieldContainer>
+`;
