@@ -21,7 +21,7 @@ function Button(props){
 }
 Button.propTypes = {
     disabled: PropTypes.oneOfType([
-        PropTypes.string,
+        PropTypes.func,
         PropTypes.bool
     ]).isRequired,
     children: PropTypes.oneOfType([

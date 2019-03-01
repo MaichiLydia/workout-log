@@ -1,0 +1,226 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check if WorkoutItem receives the right values 1`] = `
+<WorkoutForm
+  activities={
+    Array [
+      Object {
+        "id": "1",
+        "name": "Bike",
+      },
+      Object {
+        "id": "2",
+        "name": "Jog",
+      },
+      Object {
+        "id": "3",
+        "name": "Run",
+      },
+      Object {
+        "id": "4",
+        "name": "Swim",
+      },
+    ]
+  }
+  workouts={
+    Array [
+      Object {
+        "activityId": 2,
+        "date": "2019-01-01",
+        "duration": "10:10",
+        "id": "1",
+      },
+      Object {
+        "activityId": 4,
+        "date": "2019-02-01",
+        "duration": "11:10",
+        "id": "2",
+      },
+      Object {
+        "activityId": 2,
+        "date": "2019-04-01",
+        "duration": "10:13",
+        "id": "3",
+      },
+    ]
+  }
+>
+  <div
+    className="container"
+  >
+    <Form
+      onSubmit={[Function]}
+      text="Add your exercises here !"
+      title="Workout Log"
+    >
+      <div>
+        <h1>
+          Workout Log
+        </h1>
+        <p>
+          Add your exercises here !
+        </p>
+        <form
+          className="form"
+          onSubmit={[Function]}
+        >
+          <FieldContainer
+            error=""
+            htmlFor="duration"
+            title="Duration"
+          >
+            <div
+              className="form__field-container"
+            >
+              <label
+                className="form__field-label"
+                htmlFor="duration"
+              >
+                Duration
+              </label>
+              <Input
+                id="duration"
+                min="00:01"
+                name="duration"
+                onChange={[Function]}
+                required={true}
+                type="time"
+              >
+                <input
+                  className="form__input"
+                  id="duration"
+                  min="00:01"
+                  name="duration"
+                  onBlur={[Function]}
+                  type="time"
+                />
+              </Input>
+            </div>
+          </FieldContainer>
+          <FieldContainer
+            error=""
+            htmlFor="activityId"
+            title="Exercise"
+          >
+            <div
+              className="form__field-container"
+            >
+              <label
+                className="form__field-label"
+                htmlFor="activityId"
+              >
+                Exercise
+              </label>
+              <Select
+                id="activityId"
+                name="activityId"
+                onChange={[Function]}
+                options={
+                  Array [
+                    Object {
+                      "id": "1",
+                      "name": "Bike",
+                    },
+                    Object {
+                      "id": "2",
+                      "name": "Jog",
+                    },
+                    Object {
+                      "id": "3",
+                      "name": "Run",
+                    },
+                    Object {
+                      "id": "4",
+                      "name": "Swim",
+                    },
+                  ]
+                }
+                required={true}
+              >
+                <select
+                  className="form__select"
+                  id="activityId"
+                  name="activityId"
+                  onChange={[Function]}
+                >
+                  <option
+                    className="form__option"
+                    key="1"
+                    value="1"
+                  >
+                    Bike
+                  </option>
+                  <option
+                    className="form__option"
+                    key="2"
+                    value="2"
+                  >
+                    Jog
+                  </option>
+                  <option
+                    className="form__option"
+                    key="3"
+                    value="3"
+                  >
+                    Run
+                  </option>
+                  <option
+                    className="form__option"
+                    key="4"
+                    value="4"
+                  >
+                    Swim
+                  </option>
+                </select>
+              </Select>
+            </div>
+          </FieldContainer>
+          <FieldContainer
+            error=""
+            htmlFor="date"
+            title="Date"
+          >
+            <div
+              className="form__field-container"
+            >
+              <label
+                className="form__field-label"
+                htmlFor="date"
+              >
+                Date
+              </label>
+              <Input
+                id="date"
+                min="2000-01-01"
+                name="date"
+                onChange={[Function]}
+                required={true}
+                type="date"
+              >
+                <input
+                  className="form__input"
+                  id="date"
+                  min="2000-01-01"
+                  name="date"
+                  onBlur={[Function]}
+                  type="date"
+                />
+              </Input>
+            </div>
+          </FieldContainer>
+          <Button
+            disabled={true}
+          >
+            <button
+              className="form__btn form__btn--disabled"
+              disabled={true}
+            >
+              Add
+            </button>
+          </Button>
+        </form>
+      </div>
+    </Form>
+  </div>
+</WorkoutForm>
+`;
